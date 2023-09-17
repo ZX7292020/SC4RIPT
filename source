@@ -4248,8 +4248,8 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'ديسكورد / الدعم / المساعدة ', DESC = 'دعوة لسيرفر مساعده في ديسكورد .'}
-CMDs[#CMDs + 1] = {NAME = 'وحدة التحكم ', DESC = 'تحميل وحدة التحكم روبلوكس القديمة '}
+CMDs[#CMDs + 1] = {NAME = 'ديسكورد / الدعم / المساعدة | Discord/Support/Help  ', DESC = 'دعوة لسيرفر مساعده في ديسكورد .'}
+CMDs[#CMDs + 1] = {NAME = 'وحدة التحكم | Control unit  ', DESC = 'تحميل وحدة التحكم روبلوكس القديمة '}
 CMDs[#CMDs + 1] = {NAME = 'المستكشف / ديكس ', DESC = 'فتح دي اكس بواسطة مون '}
 CMDs[#CMDs + 1] = {NAME = 'قديم دي اكس  / دي اكس ', DESC = 'يفتح قديمه حق دي اكس من مون'}
 CMDs[#CMDs + 1] = {NAME = 'ريموتسبي / آرسبي ', DESC = 'Opens Simple Spy V3'}
