@@ -1,5 +1,5 @@
 if IY_LOADED and not _G.IY_DEBUG == true then
-	-- error("سكربت متطور شغال!", 0)
+	-- error("سكربت متطور ادمن شغال!", 0)
 	return
 end
 
@@ -9,7 +9,7 @@ COREGUI = game:GetService("CoreGui")
 if not game:IsLoaded() then
 	local notLoaded = Instance.new("Message")
 	notLoaded.Parent = COREGUI
-	notLoaded.Text = 'Infinite Yield is waiting for the game to load'
+	notLoaded.Text = 'سكربت متطور ادمن ينتظر يحمل لعبة!'
 	game.Loaded:Wait()
 	notLoaded:Destroy()
 end
@@ -263,7 +263,7 @@ Cmdbar.TextXAlignment = Enum.TextXAlignment.Left
 Cmdbar.TextColor3 = Color3.new(1, 1, 1)
 Cmdbar.Text = ""
 Cmdbar.ZIndex = 10
-Cmdbar.PlaceholderText = "Command Bar"
+Cmdbar.PlaceholderText = "شريط الأوامر "
 
 CMDsF.Name = "CMDs"
 CMDsF.Parent = Holder
@@ -421,7 +421,7 @@ StayOpen.Position = UDim2.new(0, 5, 0, 30)
 StayOpen.Size = UDim2.new(1, -10, 0, 20)
 StayOpen.Font = Enum.Font.SourceSans
 StayOpen.TextSize = 14
-StayOpen.Text = "Keep Menu Open"
+StayOpen.Text = "أبقِ القائمة مفتوحة "
 StayOpen.TextColor3 = Color3.new(1, 1, 1)
 StayOpen.TextXAlignment = Enum.TextXAlignment.Left
 StayOpen.ZIndex = 10
@@ -818,7 +818,7 @@ Add_2.Position = UDim2.new(0, 310, 0, 35)
 Add_2.Size = UDim2.new(0, 40, 0, 20)
 Add_2.ZIndex = 10
 Add_2.Font = Enum.Font.SourceSans
-Add_2.Text = "Add"
+Add_2.Text = "إضافة"
 Add_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Add_2.TextSize = 14.000
 table.insert(shade2,Add_2)
@@ -12412,5 +12412,5 @@ task.spawn(function()
 	Credits:Destroy()
 	IntroBackground:Destroy()
 	minimizeHolder()
-	if IsOnMobile then notify("Unstable Device", "On mobile, Infinite Yield may have issues or features that are not functioning correctly.") end
+	if IsOnMobile then notify("Unstable Device", "على الهاتف المحمول، قد تواجه سكربت متطور مشكلات أو ميزات لا تعمل بشكل صحيح. ") end
 end)
