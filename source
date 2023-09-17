@@ -335,7 +335,7 @@ Prefix.Position = UDim2.new(0, 5, 0, 5)
 Prefix.Size = UDim2.new(1, -10, 0, 20)
 Prefix.Font = Enum.Font.SourceSans
 Prefix.TextSize = 14
-Prefix.Text = "Prefix"
+Prefix.Text = "بريفكس"
 Prefix.TextColor3 = Color3.new(1, 1, 1)
 Prefix.TextXAlignment = Enum.TextXAlignment.Left
 Prefix.ZIndex = 10
@@ -394,19 +394,19 @@ function makeSettingsButton(name,iconID,off)
 	return button
 end
 
-ColorsButton = makeSettingsButton("Edit Theme","rbxassetid://4911962991")
+ColorsButton = makeSettingsButton("تعديل شكل","rbxassetid://4911962991")
 ColorsButton.Position = UDim2.new(0,5,0,55)
 ColorsButton.Size = UDim2.new(1,-10,0,25)
 ColorsButton.Name = "Colors"
 ColorsButton.Parent = SettingsHolder
 
-Keybinds = makeSettingsButton("Edit Keybinds","rbxassetid://129697930")
+Keybinds = makeSettingsButton("تحرير روابط المفاتيح ","rbxassetid://129697930")
 Keybinds.Position = UDim2.new(0, 5, 0, 85)
 Keybinds.Size = UDim2.new(1, -10, 0, 25)
 Keybinds.Name = "Keybinds"
 Keybinds.Parent = SettingsHolder
 
-Aliases = makeSettingsButton("Edit Aliases","rbxassetid://5147488658")
+Aliases = makeSettingsButton("تحرير الأسماء المستعارة ","rbxassetid://5147488658")
 Aliases.Position = UDim2.new(0, 5, 0, 115)
 Aliases.Size = UDim2.new(1, -10, 0, 25)
 Aliases.Name = "Aliases"
@@ -450,19 +450,19 @@ On.Text = ""
 On.TextColor3 = Color3.new(0, 0, 0)
 On.ZIndex = 10
 
-Positions = makeSettingsButton("Edit/Goto Waypoints","rbxassetid://5147488592")
+Positions = makeSettingsButton("تحرير/الانتقال إلى نقاط الطريق ","rbxassetid://5147488592")
 Positions.Position = UDim2.new(0, 5, 0, 145)
 Positions.Size = UDim2.new(1, -10, 0, 25)
 Positions.Name = "Waypoints"
 Positions.Parent = SettingsHolder
 
-EventBind = makeSettingsButton("Edit Event Binds","rbxassetid://5147695474",759)
+EventBind = makeSettingsButton("تحرير روابط الأحداث ","rbxassetid://5147695474",759)
 EventBind.Position = UDim2.new(0, 5, 0, 205)
 EventBind.Size = UDim2.new(1, -10, 0, 25)
 EventBind.Name = "EventBinds"
 EventBind.Parent = SettingsHolder
 
-Plugins = makeSettingsButton("Manage Plugins","rbxassetid://5147695474",743)
+Plugins = makeSettingsButton("إدارة المكونات الإضافية ","rbxassetid://5147695474",743)
 Plugins.Position = UDim2.new(0, 5, 0, 175)
 Plugins.Size = UDim2.new(1, -10, 0, 25)
 Plugins.Name = "Plugins"
@@ -476,7 +476,7 @@ Example.Size = UDim2.new(0, 190, 0, 20)
 Example.Visible = false
 Example.Font = Enum.Font.SourceSans
 Example.TextSize = 18
-Example.Text = "Example"
+Example.Text = "مثال "
 Example.TextColor3 = Color3.new(1, 1, 1)
 Example.TextXAlignment = Enum.TextXAlignment.Left
 Example.ZIndex = 10
@@ -617,7 +617,7 @@ Credits.Position = UDim2.new(0, 0, 0.9, 30)
 Credits.Size = UDim2.new(0, 250, 0, 20)
 Credits.Font = Enum.Font.SourceSansLight
 Credits.FontSize = Enum.FontSize.Size18
-Credits.Text = "Edge // Zwolf // Moon // Toon"
+Credits.Text = "!مطورين // ياسر // مون // تم تعاون مع سكربت ادمن الأصلي"
 Credits.TextColor3 = Color3.new(1, 1, 1)
 Credits.ZIndex = 10
 
@@ -639,7 +639,7 @@ Close.Position = UDim2.new(0, 205, 0, 150)
 Close.Size = UDim2.new(0, 40, 0, 20)
 Close.Font = Enum.Font.SourceSans
 Close.TextSize = 14
-Close.Text = "Close"
+Close.Text = "قفل"
 Close.TextColor3 = Color3.new(1, 1, 1)
 Close.ZIndex = 10
 table.insert(shade2,Close)
@@ -653,7 +653,7 @@ Add.Position = UDim2.new(0, 5, 0, 150)
 Add.Size = UDim2.new(0, 40, 0, 20)
 Add.Font = Enum.Font.SourceSans
 Add.TextSize = 14
-Add.Text = "Add"
+Add.Text = "إضافة"
 Add.TextColor3 = Color3.new(1, 1, 1)
 Add.ZIndex = 10
 table.insert(shade2,Add)
@@ -667,7 +667,7 @@ Delete.Position = UDim2.new(0, 50, 0, 150)
 Delete.Size = UDim2.new(0, 40, 0, 20)
 Delete.Font = Enum.Font.SourceSans
 Delete.TextSize = 14
-Delete.Text = "Clear"
+Delete.Text = "مسح"
 Delete.TextColor3 = Color3.new(1, 1, 1)
 Delete.ZIndex = 10
 table.insert(shade2,Delete)
@@ -705,7 +705,7 @@ Text_3.Position = UDim2.new(0, 10, 0, 0)
 Text_3.Size = UDim2.new(0, 240, 0, 20)
 Text_3.Font = Enum.Font.SourceSans
 Text_3.TextSize = 14
-Text_3.Text = "nom"
+Text_3.Text = "الاسم "
 Text_3.TextColor3 = Color3.new(1, 1, 1)
 Text_3.TextXAlignment = Enum.TextXAlignment.Left
 Text_3.ZIndex = 10
@@ -720,7 +720,7 @@ Delete_2.Position = UDim2.new(0, 200, 0, 0)
 Delete_2.Size = UDim2.new(0, 40, 0, 20)
 Delete_2.Font = Enum.Font.SourceSans
 Delete_2.TextSize = 14
-Delete_2.Text = "Delete"
+Delete_2.Text = "حذف"
 Delete_2.TextColor3 = Color3.new(0, 0, 0)
 Delete_2.ZIndex = 10
 table.insert(shade3,Delete_2)
@@ -762,7 +762,7 @@ Directions.Position = UDim2.new(0, 10, 0, 15)
 Directions.Size = UDim2.new(0, 115, 0, 90)
 Directions.ZIndex = 10
 Directions.Font = Enum.Font.SourceSans
-Directions.Text = "Click the button below and press a key/mouse button. Then select what you want to bind it to."
+Directions.Text = "انقر فوق الزر أدناه واضغط على زر المفتاح/الماوس. ثم حدد ما تريد ربطه به. "
 Directions.TextColor3 = Color3.fromRGB(255, 255, 255)
 Directions.TextSize = 14.000
 Directions.TextWrapped = true
@@ -777,7 +777,7 @@ BindTo.Position = UDim2.new(0, 10, 0, 95)
 BindTo.Size = UDim2.new(0, 115, 0, 50)
 BindTo.ZIndex = 10
 BindTo.Font = Enum.Font.SourceSans
-BindTo.Text = "Click to bind"
+BindTo.Text = "انقر للربط "
 BindTo.TextColor3 = Color3.fromRGB(255, 255, 255)
 BindTo.TextSize = 16.000
 table.insert(shade2,BindTo)
@@ -790,7 +790,7 @@ TriggerLabel.Position = UDim2.new(0, 10, 0, 155)
 TriggerLabel.Size = UDim2.new(0, 45, 0, 20)
 TriggerLabel.ZIndex = 10
 TriggerLabel.Font = Enum.Font.SourceSans
-TriggerLabel.Text = "Trigger:"
+TriggerLabel.Text = "مشغل :"
 TriggerLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TriggerLabel.TextSize = 14.000
 TriggerLabel.TextXAlignment = Enum.TextXAlignment.Left
@@ -838,14 +838,14 @@ Toggles.TopImage = "rbxasset://textures/ui/Scroll/scroll-middle.png"
 Toggles.VerticalScrollBarInset = Enum.ScrollBarInset.Always
 table.insert(scroll,Toggles)
 
-ClickTP.Name = "Click TP (Hold Key & Click)"
+ClickTP.Name = "Click TP (hold key and click)  "
 ClickTP.Parent = Toggles
 ClickTP.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
 ClickTP.BorderSizePixel = 0
 ClickTP.Size = UDim2.new(0, 200, 0, 20)
 ClickTP.ZIndex = 10
 ClickTP.Font = Enum.Font.SourceSans
-ClickTP.Text = "    Click TP (Hold Key & Click)"
+ClickTP.Text = "    انقر فوق تنقل (اضغط مع الاستمرار على المفتاح وانقر) "
 ClickTP.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickTP.TextSize = 14.000
 ClickTP.TextXAlignment = Enum.TextXAlignment.Left
@@ -860,7 +860,7 @@ Select.Position = UDim2.new(0, 160, 0, 0)
 Select.Size = UDim2.new(0, 40, 0, 20)
 Select.ZIndex = 10
 Select.Font = Enum.Font.SourceSans
-Select.Text = "Add"
+Select.Text = "إضافة"
 Select.TextColor3 = Color3.fromRGB(0, 0, 0)
 Select.TextSize = 14.000
 table.insert(shade3,Select)
@@ -874,7 +874,7 @@ ClickDelete.Position = UDim2.new(0, 0, 0, 25)
 ClickDelete.Size = UDim2.new(0, 200, 0, 20)
 ClickDelete.ZIndex = 10
 ClickDelete.Font = Enum.Font.SourceSans
-ClickDelete.Text = "    Click Delete (Hold Key & Click)"
+ClickDelete.Text = "    انقر فوق "حذف" (اضغط مع الاستمرار على المفتاح وانقر) "
 ClickDelete.TextColor3 = Color3.fromRGB(255, 255, 255)
 ClickDelete.TextSize = 14.000
 ClickDelete.TextXAlignment = Enum.TextXAlignment.Left
@@ -889,7 +889,7 @@ Select_2.Position = UDim2.new(0, 160, 0, 0)
 Select_2.Size = UDim2.new(0, 40, 0, 20)
 Select_2.ZIndex = 10
 Select_2.Font = Enum.Font.SourceSans
-Select_2.Text = "Add"
+Select_2.Text = "اضافة"
 Select_2.TextColor3 = Color3.fromRGB(0, 0, 0)
 Select_2.TextSize = 14.000
 table.insert(shade3,Select_2)
@@ -932,7 +932,7 @@ CreateToggle.Position = UDim2.new(0, 152, 0, 10)
 CreateToggle.Size = UDim2.new(0, 198, 0, 20)
 CreateToggle.ZIndex = 10
 CreateToggle.Font = Enum.Font.SourceSans
-CreateToggle.Text = "Create Toggle"
+CreateToggle.Text = "إنشاء تبديل "
 CreateToggle.TextColor3 = Color3.fromRGB(255, 255, 255)
 CreateToggle.TextSize = 14.000
 CreateToggle.TextXAlignment = Enum.TextXAlignment.Left
@@ -4019,7 +4019,7 @@ end)
 
 PrefixBox:GetPropertyChangedSignal("Text"):Connect(function()
 	prefix = PrefixBox.Text
-	Cmdbar.PlaceholderText = "Command Bar ("..prefix..")"
+	Cmdbar.PlaceholderText = "شريط الأوامر  ("..prefix..")"
 	updatesaves()
 end)
 
@@ -4248,11 +4248,11 @@ function autoComplete(str,curText)
 end
 
 CMDs = {}
-CMDs[#CMDs + 1] = {NAME = 'discord / support / help', DESC = 'Invite to the Infinite Yield support server.'}
-CMDs[#CMDs + 1] = {NAME = 'console', DESC = 'Loads old Roblox console'}
-CMDs[#CMDs + 1] = {NAME = 'explorer / dex', DESC = 'Opens DEX by Moon'}
-CMDs[#CMDs + 1] = {NAME = 'olddex / odex', DESC = 'Opens Old DEX by Moon'}
-CMDs[#CMDs + 1] = {NAME = 'remotespy / rspy', DESC = 'Opens Simple Spy V3'}
+CMDs[#CMDs + 1] = {NAME = 'ديسكورد / الدعم / المساعدة ', DESC = 'دعوة لسيرفر مساعده في ديسكورد .'}
+CMDs[#CMDs + 1] = {NAME = 'وحدة التحكم ', DESC = 'تحميل وحدة التحكم روبلوكس القديمة '}
+CMDs[#CMDs + 1] = {NAME = 'المستكشف / ديكس ', DESC = 'فتح دي اكس بواسطة مون '}
+CMDs[#CMDs + 1] = {NAME = 'قديم دي اكس  / دي اكس ', DESC = 'يفتح قديمه حق دي اكس من مون'}
+CMDs[#CMDs + 1] = {NAME = 'ريموتسبي / آرسبي ', DESC = 'Opens Simple Spy V3'}
 CMDs[#CMDs + 1] = {NAME = 'audiologger / alogger', DESC = 'Opens Edges audio logger'}
 CMDs[#CMDs + 1] = {NAME = 'serverinfo / info', DESC = 'Gives you info about the server'}
 CMDs[#CMDs + 1] = {NAME = 'jobid', DESC = 'Copies the games JobId to your clipboard'}
